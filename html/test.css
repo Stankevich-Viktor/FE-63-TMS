@@ -1,0 +1,35 @@
+.container{
+height: 60%;
+background: rgb(124, 128, 126);
+}
+
+.content-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+}
+
+.content-item{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+  font-size: 200%; 
+  border-bottom: 2px solid maroon; 
+  font-weight: normal; 
+  padding-bottom: 5px; 
+   
+}
+
+.content-item-img{
+   border-radius: 100px;
+   width: 100px;
+  height: 100px;
+}
+
+p{
+  text-align: center;
+
+}

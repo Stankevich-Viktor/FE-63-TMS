@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact {
+  max-width: 375px;
+  padding: 13.5vh 38px 55px;
+  background: linear-gradient(180deg, #6bf6c3 0%, #3d79f8 100%);
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.contact__logo {
+  margin-bottom: 40px;
+}
+
+.contact__description {
+  margin-bottom: 48px;
+}
+
+.contact__social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contact__social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
+
+.contact__social__item a {
+  display: flex;
+}
+
+.contact__social__item:last-child {
+  margin-right: 0;
+}
+
+.contact__form {
+  margin-bottom: 60px;
+}
+
+.contact__form__item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contact__form__item input::placeholder {
+  color: #fff;
+}
+.contact__form__item input {
+  width: 100%;
+  padding: 14px 25px 16px;
+  background: #6cc5de;
+  border: none;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.contact__form__item .btn {
+  width: 100%;
+  padding: 14px 25px 16px;
+  background: #fff;
+  border: none;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3f82e6;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact__form__item .icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.contact__form > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: right;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contact__footer a {
+  color: #fff;
+}

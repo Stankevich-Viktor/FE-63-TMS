@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact{
+  background: linear-gradient(0.51deg, #FF6E5C -0.24%, #C664A4 31.7%, #975BDE 99.58%);
+ margin-bottom: 40px;
+}
+
+.contact-social-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
